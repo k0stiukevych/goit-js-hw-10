@@ -30,6 +30,10 @@ input {
   padding: 8px 16px;
 }
 
+input:hover {
+  border: 2px solid #4E75FF;
+}
+
 button {
   border-radius: 8px;
   border: none;
@@ -56,7 +60,7 @@ button:hover {
 
 :hover .is-not-active {
   background: #cfcfcf;
-    color: #989898;
+  color: #989898;
 }
 
 .btn-reset {
