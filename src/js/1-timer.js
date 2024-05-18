@@ -91,7 +91,6 @@ document.addEventListener('DOMContentLoaded', () => {
     datePicker.disabled = false;
     startButton.disabled = true;
     startButton.classList.add('is-not-active');
-
     iziToast.success({
       title: 'Voilà!',
       message: 'The timer was reseted.',
